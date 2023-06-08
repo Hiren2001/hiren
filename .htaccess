@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^hiren\.is-cool\.dev$ [NC]
+RewriteRule ^(.*)$ https://hiren.is-a.dev/$1 [R=301,L]
